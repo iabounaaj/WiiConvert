@@ -41,12 +41,12 @@ The output folder will open automatically when done.
 Requires [Rust](https://rustup.rs/) 1.93 or later.
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/rvz2wbfs
-cd rvz2wbfs
+git clone https://github.com/YOUR_USERNAME/WiiConvert
+cd WiiConvert
 cargo build --release
 ```
 
-The binary will be at `target/release/rvz2wbfs.exe`.
+The binary will be at `target/release/WiiConvert.exe`.
 
 ## Credits
 
