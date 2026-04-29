@@ -26,7 +26,7 @@ wbfs/
     RMCE01.wbfs
 ```
 
-RVZ2WBFS creates this structure automatically. The game title and ID are read from the disc image, with correct display names sourced from the bundled WiiTDB database.
+WiiConvert creates this structure automatically. The game title and ID are read from the disc image, with correct display names sourced from the bundled WiiTDB database.
 
 ## Usage
 
