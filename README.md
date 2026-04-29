@@ -1,6 +1,8 @@
-# RVZ2WBFS
+# WiiConvert (RVZ2WBFS)
 
 Converts Wii disc images to WBFS format, automatically named and organised for USB loaders (USB Loader GX, WiiFlow, etc.).
+
+Previously only di
 
 ## Supported input formats
 
@@ -11,9 +13,6 @@ Converts Wii disc images to WBFS format, automatically named and organised for U
 | `.iso` / `.gcm` | Raw disc image |
 | `.wbfs` | WBFS (re-conversion / rename) |
 | `.ciso` | Compact ISO |
-| `.gcz` | GameCube compressed |
-| `.tgc` | Triforce Game Container |
-| `.nfs` | Nintendo File System |
 
 ## Output structure
 
