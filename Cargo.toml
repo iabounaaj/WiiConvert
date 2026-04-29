@@ -1,0 +1,27 @@
+[package]
+name = "rvz2wbfs"
+version = "0.1.0"
+edition = "2024"
+build = "build.rs"
+
+[dependencies]
+nod = { git = "https://github.com/mq1/nod.git" }
+anyhow = "1.0"
+eframe = { version = "0.31", default-features = false, features = [
+    "default_fonts",
+    "glow",
+] }
+egui = "0.31"
+rfd = "0.15"
+num_cpus = "1.17"
+open = "5.3"
+sanitize-filename = "0.6"
+image = { version = "0.25", default-features = false, features = ["ico"] }
+
+[build-dependencies]
+winresource = "0.1"
+
+[profile.release]
+strip = true
+opt-level = 3
+lto = true
