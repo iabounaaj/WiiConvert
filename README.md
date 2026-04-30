@@ -2,7 +2,6 @@
 
 Converts Wii disc images to WBFS format, automatically named and organised for USB loaders (USB Loader GX, WiiFlow, etc.).
 
-Previously only di
 
 ## Supported input formats
 
